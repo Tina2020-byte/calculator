@@ -1,0 +1,58 @@
+body {
+	user-select: none;
+}
+
+div.container {
+	 box-shadow: 5px 3px 10px 5px #cfdef3;
+	
+	 background: #DCDCDC;
+	 cursor: pointer;
+	 height: 450px;
+	 width: 600px;
+	 padding: 0;
+	 margin-left: auto;
+     margin-right: auto;
+	 margin-top: 100px;
+}
+
+.col {
+	border: 1px solid black;
+	padding-top: .75rem;
+	padding-bottom: .75rem;
+	background: #8FBC8F;
+	margin: 0;
+}
+
+
+
+div.item.input.col.col-8  {
+	padding: 0;
+	margin: 0;
+	margin-top: 50px;
+	
+}
+
+div.item.clear {
+	background: #FF8C00;
+}
+
+div.item.total {
+	background: #FF8C00;
+}
+
+
+div .item.clear:hover {
+	background: #FFA500;
+}
+
+div .item:hover {
+	background: #66CDAA;
+}
+
+
+div .item.total:hover {
+	background: #FFA500;
+}
+
+
+
